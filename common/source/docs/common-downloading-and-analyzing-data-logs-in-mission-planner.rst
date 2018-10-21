@@ -20,7 +20,7 @@ Dataflash logs.
 
 .. note::
 
-   If your vehicle is having trouble producing dataflash logs - including the infamous "No IO heartbeat" diagnostic message - try a different SD card.  You may also choose to test the card using a dedicated tool, such as ``H2testw``.  Low board voltates are also known to cause logging issues.
+   If your vehicle is having trouble producing dataflash logs - including the infamous "No IO heartbeat" diagnostic message - try a different SD card.  You may also choose to test the card using a dedicated tool, such as ``H2testw``.  Low board voltages are also known to cause logging issues.
 
 .. _common-downloading-and-analyzing-data-logs-in-mission-planner_downloading_logs_via_mavlink:
 
@@ -70,12 +70,12 @@ QUADCOPTER or ROVER.
 Steps to review a log downloaded from the internet, or your vehicle
 -------------------------------------------------------------------
 For DataFlash logs, with a .bin extension:
-#. Download the log file. Note the place on your computer to which it is downloaded. (For example, it might be C:\Downloads)
+#. Download the log file. Note the place on your computer to which it is downloaded. (For example, it might be C:\\Downloads)
 #. Open Mission Planner
 #. Navigate to the “Flight Data” page (top left)
 #. Select the “Dataflash Logs” tab (mid-screen, left side)
 #. Select the “Review a Log” button.
-#. A standard Windows “select a file” box will let you go find the .bin file that you downloaded, at the place that you downloaded it. (Per the example above, it is in C:\Downloads) Choose that file.
+#. A standard Windows “select a file” box will let you go find the .bin file that you downloaded, at the place that you downloaded it. (Per the example above, it is in C:\\Downloads) Choose that file.
 #. After reading the log, a Manual Log Review window will be open, which allows you to plot data from the log for inspection. (see below)
 
 Reviewing the log data
@@ -183,7 +183,7 @@ Message Details (Copter specific)
 **ATDE (auto tune step details):**
 
 +---------+-------------------------------------------------------------------+
-| Angle   | Angle of the copter in centi-degrees for the axis being testedx   |
+| Angle   | Angle of the copter in centi-degrees for the axis being tested    |
 +---------+-------------------------------------------------------------------+
 | Rate    | Rate of rotation of the copter for the axis being tested          |
 +---------+-------------------------------------------------------------------+
@@ -385,7 +385,7 @@ but the most common are:
 +------------+----------------------------------------------------------------------------------------------------+
 | VAcc       | Vertical Accuracy as reported by the GPS module, in meters                                         |
 +------------+----------------------------------------------------------------------------------------------------+
-| SAcc       | Speed accuracy as reported by the GPS, in m/s/s                                                    |
+| SAcc       | Speed accuracy as reported by the GPS, in m/s                                                      |
 +------------+----------------------------------------------------------------------------------------------------+
 | VV         | Flag to indicate if the GPS is reporting vertical velocity                                         |
 |            |   0 No vertical velocity data                                                                      |
